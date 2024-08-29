@@ -1,0 +1,66 @@
+.body{
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between; /* Adiciona espaço entre os elementos */
+    background: rgb(44, 57, 77);
+    padding: 4px;
+ /* Adiciona algum espaçamento ao redor do conteúdo */
+}
+
+.png {
+    width: 170px;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding-left: 20px;
+
+}
+
+.ancora {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.ancora:hover {
+    font-size: 20px;
+    color: rgb(66, 181, 98);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-input,
+.pass-input {
+    margin-left: 20px; /* Adiciona espaçamento entre os inputs */
+    padding: 6px;
+    border: 3px solid rgb(36, 48, 181);
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.email-input:hover{
+    padding: 8px;
+}
+.pass-input:hover{
+    padding: 8px;
+}
+.divisao{
+    display: flex;
+    align-items: center;
+}
+.login{
+    margin-left: 16px;
+    padding: 6px;
+    background-color: rgb(68, 68, 201);
+    color: white;
+    border: 2px solid white
+}
